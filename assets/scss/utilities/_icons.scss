@@ -1,0 +1,13 @@
+.i {
+    &--md {
+        --svg-size: 1.5rem;
+    }
+    &--lg {
+        --svg-size: 1.8rem;
+    }
+    svg {
+        width: var(--svg-size, 1rem);
+        height: var(--svg-size, 1rem);
+        fill: currentColor;
+    }
+}

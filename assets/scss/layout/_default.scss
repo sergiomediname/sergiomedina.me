@@ -1,0 +1,9 @@
+.layout {
+    @apply h-screen overflow-hidden;
+    .header {
+        @apply fixed top-0 left-0 w-full;
+    }
+    .main {
+        @apply h-full flex;
+    }
+}

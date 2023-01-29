@@ -1,0 +1,9 @@
+body {
+    @apply font-normal text-base-100 bg-light-100 dark:bg-base-200 dark:text-light-200;
+    font-family: "Raleway", sans-serif;
+}
+a {
+    &:hover {
+        @apply text-main-100 dark:text-main-200;
+    }
+}

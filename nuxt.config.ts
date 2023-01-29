@@ -2,19 +2,16 @@
 export default defineNuxtConfig({
     app: {
         head: {
-        //   title: "Byte Movies",
-        //   htmlAttrs: {
-        //     lang: 'en'
-        //   },
-        //   meta: [
-        //     { charset: 'utf-8' },
-        //     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        //     { hid: 'description', name: 'description', content: '' },
-        //     { name: 'format-detection', content: 'telephone=no' }
-        //   ],
-        //   bodyAttrs: {
-        //     class: 'bg-main-300 text-light-300'
-        //   },
+          title: "Sergio Medina 🚀 Front-end Developer",
+          htmlAttrs: {
+            lang: 'en'
+          },
+          meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { hid: 'description', name: 'description', content: 'Specialist in Web Development and UX/UI Design with +5 years of experience creating an ❤️ emotional relationship between brands and their consumers.' },
+            { name: 'format-detection', content: 'telephone=no' }
+          ],
           link: [
             {
               rel: 'stylesheet',
@@ -30,7 +27,10 @@ export default defineNuxtConfig({
         },
     },
     css: ['@/assets/scss/main.scss'],
-    modules: ['@nuxtjs/color-mode'],
+    modules: [
+      '@nuxtjs/color-mode',
+      '@nuxt/content'
+    ],
     colorMode: {
       classSuffix: ''
     }

@@ -1,11 +1,16 @@
 <template>
-    <section class="portfolio">
+    <section class="portfolio h-full overflow-x-hidden overflow-y-auto">
         <div class="wrapp">
             <PortfolioCard
                 v-for="data in projects"
                 :key="data.id"
                 :data="data"
             />
+            <div
+                class="more-works relative aspect-[4/3] overflow-hidden flex items-center justify-center"
+            >
+                <NuxtLink to="/portfolio/">More works</NuxtLink>
+            </div>
         </div>
     </section>
 </template>

@@ -1,11 +1,11 @@
 <template>
     <div class="flex items-center gap-6">
-        <a href="#"><iLinkedin class="i--lg" /></a
+        <!-- <a href="#"><iLinkedin class="i--lg" /></a
         ><a href="https://www.behance.net/sergiomedinaweb"
             ><iBehance class="i--lg" /></a
         ><a href="https://github.com/sergiomediname"
             ><iGithub class="i--lg"
-        /></a>
+        /></a> -->
     </div>
 </template>
 

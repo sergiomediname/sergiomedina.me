@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-import iLinkedin from "@/components/icons/iLinkedin.vue";
-import iBehance from "@/components/icons/iBehance.vue";
-import iGithub from "@/components/icons/iGithub.vue";
+// import iLinkedin from "@/components/icons/iLinkedin.vue";
+// import iBehance from "@/components/icons/iBehance.vue";
+// import iGithub from "@/components/icons/iGithub.vue";
 </script>

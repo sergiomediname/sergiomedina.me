@@ -8,7 +8,9 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -u && git add .",
+    "publish": "git push && git push --tags"
   },
   "author": "Sergio Medina",
   "devDependencies": {

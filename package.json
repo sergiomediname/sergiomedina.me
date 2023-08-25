@@ -10,7 +10,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 -u && git add .",
-    "publish": "git push && git push --tags"
+    "publish": "git push && git push --tags",
+    "prepare": "husky install"
   },
   "author": "Sergio Medina",
   "devDependencies": {

@@ -61,7 +61,8 @@ export default {
         gradient: '200% 200%'
       },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))'
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-card': 'radial-gradient(40% 128px at 50% 0, hsl(0, 0%, 100%), transparent)'
       },
       fontFamily: {
         inter: ['"Inter"', 'sans-serif']

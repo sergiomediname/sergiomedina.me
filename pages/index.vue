@@ -20,9 +20,3 @@ import ContentBio from '@/components/ContentBio.vue'
 import SocialList from '@/components/SocialList.vue'
 import WorkList from '@/components/WorkList.vue'
 </script>
-
-<style>
-html {
-  font-family: 'Inter', sans-serif;
-}
-</style>

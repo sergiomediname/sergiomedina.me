@@ -72,7 +72,7 @@ export default defineNuxtConfig({
         lang: 'en'
       },
       bodyAttrs: {
-        class: 'bg-zinc-950 text-base text-body'
+        class: 'bg-zinc-950 text-base text-body font-inter'
       }
     }
   },

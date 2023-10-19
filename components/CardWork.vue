@@ -15,7 +15,7 @@
           }}</span>
       </div>
     </div>
-    <a :href="data.url" target="_blank" class="absolute inset-0 z-30"></a>
+    <a :href="data.url" target="_blank" class="absolute inset-0 z-30" aria-label="Visit website"></a>
   </div>
 </template>
 

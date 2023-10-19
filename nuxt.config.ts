@@ -61,6 +61,10 @@ export default defineNuxtConfig({
         {
           rel: 'canonical',
           href: 'https://sergiomedina.netlify.app/'
+        },
+        {
+          rel: 'stylesheet',
+          href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap'
         }
       ],
       htmlAttrs: {
@@ -78,13 +82,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
-  },
-  modules: ['@nuxtjs/google-fonts'],
-  googleFonts: {
-    families: {
-      Inter: true
-    },
-    display: 'swap'
   },
   nitro: {
     prerender: {

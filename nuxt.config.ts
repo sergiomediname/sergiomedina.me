@@ -3,9 +3,6 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      htmlAttrs: {
-        lang: 'en'
-      },
       title: 'Sergio Medina | Front-end Developer & Web Designer',
       meta: [
         { charset: 'utf-8' },
@@ -66,20 +63,22 @@ export default defineNuxtConfig({
           href: 'https://sergiomedina.netlify.app/'
         }
       ],
+      htmlAttrs: {
+        class: 'text-reset',
+        lang: 'en'
+      },
       bodyAttrs: {
-        class: 'bg-dark text-base font-body text-body'
+        class: 'bg-zinc-950 text-base text-body'
       }
     }
   },
+  css: ['@/assets/css/main.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {}
     }
   },
-  css: [
-    '@/assets/main.css'
-  ],
   modules: ['@nuxtjs/google-fonts'],
   googleFonts: {
     families: {
@@ -92,5 +91,10 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml']
     }
   },
-  runtimeConfig: { public: { gtmContainerId: 'GTM-WFNCS2G' } }
+  runtimeConfig: {
+    public: {
+      baseUrl: 'https://sergiomedina.netlify.app/',
+      gtmContainerId: 'GTM-WFNCS2G'
+    }
+  }
 })

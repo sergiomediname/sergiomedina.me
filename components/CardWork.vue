@@ -10,7 +10,7 @@
       <p class="text-md">{{ data.description }}</p>
       <div class="flex items-center gap-2">
         <span v-for="stack in data.stack" :key="stack"
-          class="border border-neutral-800 py-2 px-3 rounded-full uppercase text-sm leading-none text-neutral-500">{{
+          class="border border-neutral-800/50 bg-neutral-800/30 py-2 px-3 rounded-full uppercase text-sm leading-none text-neutral-500">{{
             stack
           }}</span>
       </div>

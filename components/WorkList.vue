@@ -1,5 +1,5 @@
 <template>
-  <div class="col-span-12 lg:col-span-6 lg:col-start-7">
+  <div class="col-span-12 lg:col-span-6 lg:col-start-7 group/works">
     <div class="items flex flex-col gap-6 lg:gap-8">
       <CardWork v-for="work in works" :key="work.id" :data="work" />
     </div>

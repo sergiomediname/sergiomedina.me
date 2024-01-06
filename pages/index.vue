@@ -3,7 +3,7 @@
     <!-- Content -->
     <div class="relative col-span-12 lg:col-span-5">
       <div class="lg:sticky lg:top-16 lg:left-0">
-        <BlurredCircle />
+        <!-- <BlurredCircle /> -->
         <ContentBio />
         <SocialList />
       </div>
